@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+/* 1. Requirement: Custom Background Color */
+body {
+    background-color: #2d3e33; /* Nature Green vibe */
+    /* Requirement: Style specifying font color */
+    color: #ffffff; 
+    /* Requirement: Style specifying font family */
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* 2. Positioning Blocks (Divs) */
+
+/* Requirement: Div Block #1 */
+.hero-block {
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Requirement: Div Block #2 */
+.content-block {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 700px;
+}
+
+/* Requirement: Div Block #3 */
+.video-section {
+    padding: 50px 20px;
+    margin: 20px 0;
+}
+
+/* 3. Requirement: At least four style definitions total */
+
+.nav-container {
+    text-align: right; 
+    padding: 20px 50px;
+}
+
+.nav-link {
+    color: #a3c1ad; /* Sage Green */
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #9dbad5; /* Soft Blue */
+}
+
+h2 {
+    color: #f4c2c2; /* Soft Pink */
+}
+
+.center-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.destination-list {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.reason-list {
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    padding: 40px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.wrapper {
+    display: flex;          /* Uses Flexbox to center everything inside */
+    justify-content: center; 
+    align-items: center;
+    width: 100%;            /* Takes up full width of the page */
+    margin: 20px 0;
+  }
+
+  .tableau-container {
+    width: 80%;             /* Adjust this percentage to make it "smaller" */
+    max-width: 900px;       /* Keeps it from getting too huge on big monitors */
+  }
+
+  /* Tableau's default class often needs a nudge to stay centered */
+  .tableauPlaceholder {
+    margin: 0 auto !important; 
+  }
